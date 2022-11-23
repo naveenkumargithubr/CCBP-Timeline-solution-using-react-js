@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.chrone-container {
+  width: 100vw;
+  height: 90vh;
+}
+
+.timeline-bg-container {
+  min-height: 100vh;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+}
