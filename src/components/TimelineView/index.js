@@ -23,11 +23,12 @@ const TimelineView = props => {
       </h1>
       <div className="chrone-container">
         <Chrono
-          item={timelineItemsList}
-          mode="VERTICAL_ALTERNATING"
-          theme={{secondary: 'white'}}
+          slideShow
+          items={timelineItemsList} // here we pass the data what we want 
+          mode="VERTICAL_ALTERNATING" // mode is change the components in alternative direction 
+          theme={{secondary: 'white'}} // default theme is applied 
         >
-          {timelineItemsList.map(eachItem => renderTimelineViewHome(eachItem))}
+          {timelineItemsList.map(eachItem => renderTimelineViewHome(eachItem))} // display the all the timelineItems 
         </Chrono>
       </div>
     </div>
